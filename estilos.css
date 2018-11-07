@@ -1,0 +1,6 @@
+.page-link.active, .page-link:focus, .page-link:hover {
+    color: #014c8c;
+    text-decoration: none;
+    background-color: #eceeef;
+    border-color: #ddd;
+}

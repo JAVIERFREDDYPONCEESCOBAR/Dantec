@@ -1,0 +1,1310 @@
+@import url(//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600);
+/* Include Default Variables & Mixins */
+/* End Variables & Mixins */
+/**************************************************
+* --
+* 2. Section header
+* --
+**************************************************/
+/**********************************************
+* 2.1. Zone user
+**********************************************/
+#ds_140_producticons{
+  float: left;
+   /*  width: 170px;
+    min-height: 10px;*/
+
+  }
+ #video_single{
+
+    top: -50px;
+    left: 560px;
+    display: inline-block;
+    background: url(../img/btn_video.png) no-repeat left top;
+    width: 140px;
+    height: 33px;
+    text-indent: -9999px;
+    border: hidden;
+    border-radius: 0;
+    padding: 0px;
+    margin: 20px 0 0 0;
+}
+
+
+
+.zone-user-wrapper {
+  position: fixed;
+  z-index: 200;
+}
+
+  #edit-quantity{
+
+        max-width: 60px;
+  }
+
+.el_video{
+    width: 170%;
+    position: relative;
+
+}
+.el_video_int{
+    width: 100%;
+    height: 0;
+    padding-bottom: 90.4%;
+    position: relative;
+  }
+
+.ui-spinner {position: relative; border: 0px solid white; }
+.ui-spinner-buttons {position: absolute}
+.ui-spinner-button {overflow: hidden}
+
+/*******************************************
+* 2.1.2. Region user second
+*******************************************/
+#region-user-second {
+  background-color: transparent; }
+
+.block-views-shopping-cart-block {
+  margin: 0; }
+
+/**********************************************
+* 2.2. Zone branding
+**********************************************/
+.zone-branding .region-branding {
+clear:both;
+ text-align:left;
+ margin-top:10px;
+ margin-left:10px;
+ width:950px;
+   }
+  .zone-branding .region-branding .logo-img {
+	   float: left;
+	   padding-right:10px;
+	   padding-bottom:10px;
+}
+
+/**
+* Search block
+*/
+#block-views-exp-display-products-page {
+  float:right;
+  /* LTR */
+  padding-top: 0px;
+  margin-bottom: 0px; }
+
+#block-views-exp-display-products-page .views-exposed-widgets {
+  position: relative;
+  width: 160px;
+  float: none;
+  margin-right: 10px;
+  /* LTR */
+  margin-bottom: 0; }
+
+/**********************************************
+* 2.3. Zone menu
+**********************************************/
+.menu-toggle {
+  display: none; }
+
+.navigation {
+  background: transparent;
+  display: block !important;
+  margin: 0px 0;
+  padding-bottom: 0;
+  /* Main menu */
+  /* Secondary menu */ }
+  .navigation h2 {
+    display: none; }
+  .navigation .block-menu-block-1,
+  .navigation .block-menu-block-2 {
+	  margin: 12px 0 0 0;
+	  float: right;
+  }
+  .navigation .block-menu-block-2 {
+	   width:650px;
+  }
+  .navigation .block-menu-block-3 {
+  		width:940px;
+		background:#9d9d9d;
+		margin-bottom:20px;
+  }
+
+
+  .navigation .block-secondary-navigation ul,
+  .navigation .block-menu-user-menu ul,
+  .navigation .block-menu-block-1 ul,
+  .navigation .block-menu-block-2 ul {
+    display: block;
+
+    /* LTR */
+    margin: 0;
+    }
+    .navigation .block-secondary-navigation ul li,
+	 .navigation .block-menu-user-menu ul li,
+    .navigation .block-menu-block-1 ul li,
+	 .navigation .block-menu-block-2 ul li,
+	 .navigation .block-menu-block-3 ul li {
+      margin-right: -2px;
+      /* LTR */
+      width: auto; }
+      .navigation .block-secondary-navigation ul li a,
+	   .navigation .block-menu-user-menu ul li a,
+      .navigation .block-menu-block-1 ul li a,
+	  .navigation .block-menu-block-2 ul li a {
+        border: 0;
+
+
+		 }
+        .navigation .block-secondary-navigation ul li a.active,
+		.navigation .block-secondary-navigation ul li a:hover,
+		.navigation .block-menu-user-menu ul li a.active,
+		.navigation .block-menu-user-menu ul li a.hover,
+        .navigation .menu-block-1 ul li a.active,
+        .navigation .menu-block-1 ul li a:hover {
+          border-left-width: 0;
+          border-right-width: 0; }
+      .navigation .block-secondary-navigation ul li.first a,
+      .navigation .block-menu-block-1 ul li.first a {
+
+        /* LTR */ }
+      .navigation .block-secondary-navigation ul li.last a,
+	  .navigation .block-menu-user-menu ul li.last a
+      .navigation .block-menu-block-1 ul li.last a {
+
+        /* LTR */
+        margin-right: 0;
+        /* LTR */
+        margin-left: -2px;
+        /* LTR */ }
+  .navigation .block-secondary-navigation,
+  .navigation .block-menu-user-menu,
+   .navigation .block-menu-block-1,
+  .navigation .block-menu-block-2,
+   .navigation .block-menu-block-3 {
+    float: left;
+    /* LTR */
+    margin-right: 0px;
+    /* LTR */
+    margin-left: 0;
+    /* LTR */ }
+   #region-sidebar-first .block-menu-block-4 {
+	   padding:0px;
+   }
+
+  .navigation .menu-block-1 {
+    clear: right;
+	float:left;
+    /* LTR */
+    margin-right: 0; }
+
+.zone-menu .block-menu h2.block-title {
+  margin-bottom: 1em; }
+.zone-menu .block-menu ul.menu li {
+
+  width: auto; }
+  .zone-menu .block-menu ul.menu li a {
+    display: inline;
+    border-left-width: 0;
+    border-right-width: 0; }
+    .zone-menu .block-menu ul.menu li a.active, .zone-menu .block-menu ul.menu li a:hover {
+      border-left-width: 0;
+      border-right-width: 0; }
+  .zone-menu .block-menu ul.menu li.first a {
+  }
+  .zone-menu .block-menu ul.menu li.last a {
+  }
+
+/**************************************************
+* --
+* 3. Section content
+* --
+**************************************************/
+/**********************************************
+* 3.2. Zone content
+**********************************************/
+/*******************************************
+* 3.2.1. Sidebar first
+*******************************************/
+/* Price range */
+#search-api-ranges-block-slider-view-form .range-slider-box {
+  margin: 0 auto;
+  width: 90%; }
+
+#search-api-ranges-block-slider-view-form .range-box {
+  float: inherit; }
+
+#search-api-ranges-block-slider-view-form label {
+  float: left;
+  /* LTR */ }
+
+#search-api-ranges-block-slider-view-form #edit-range-from,
+#search-api-ranges-block-slider-view-form #edit-range-to {
+  float: inherit; }
+
+#search-api-ranges-block-slider-view-form #edit-submit {
+  margin-top: 0; }
+
+/*******************************************
+* 3.2.2. Content
+*******************************************/
+/**
+* Blocks
+*/
+#block-views-demo-content-slideshow-block-1 {
+  /* HP blocks: Slideshow */
+  /**
+   * For modern browsers
+   * 1. The space content is one way to avoid an Opera bug when the
+   *    contenteditable attribute is included anywhere else in the document.
+   *    Otherwise it causes space to appear at the top and bottom of elements
+   *    that are clearfixed.
+   * 2. The use of `table` rather than `block` is only necessary if using
+   *    `:before` to contain the top-margins of child elements.
+   */
+  /**
+   * For IE 6/7 only
+   * Include this rule to trigger hasLayout and contain floats.
+   */
+  *zoom: 1; }
+  #block-views-demo-content-slideshow-block-1:before, #block-views-demo-content-slideshow-block-1.cf:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */ }
+  #block-views-demo-content-slideshow-block-1:after {
+    clear: both; }
+
+/**********************************************
+* 3.3. Zone postscript
+**********************************************/
+.zone-postscript .grid-8 {
+  margin: 0 10px;
+  width: inherit; }
+
+#zone-postscript {
+  /* Adverts blocks */ }
+  #zone-postscript .view-ad-push .views-row,
+  #zone-postscript .block-blog-block .block-inner {
+    position: relative; }
+    #zone-postscript .view-ad-push .views-row img,
+    #zone-postscript .block-blog-block .block-inner img {
+      height: auto;
+      max-width: 100%; }
+  #zone-postscript .view-ad-push .views-row .views-field-field-tagline,
+  #zone-postscript .block-blog-block .block-inner .content .views-field-title {
+    position: absolute;
+    bottom: 10%;
+    left: 7%;
+    width: 86%; }
+    #zone-postscript .view-ad-push .views-row .views-field-field-tagline a,
+    #zone-postscript .block-blog-block .block-inner .content .views-field-title a {
+      border: 0; }
+  #zone-postscript .block-blog-block .block-inner .block-title {
+    display: block; }
+  #zone-postscript .view-ad-push .views-row .views-field-field-tagline .field-content a,
+  #zone-postscript .block-blog-block .views-field-title .field-content a {
+    min-height: 60px;
+    padding: 15px 10px; }
+
+/**************************************************
+* --
+* 4. Section footer
+* --
+**************************************************/
+/**********************************************
+* 4.1. Zone footer
+**********************************************/
+/**
+* Menu footer navigation
+*/
+.section-footer ul.menu li.expanded {
+  display: inline;
+  float: left;
+  /* LTR */ }
+
+/**********************************************
+* 4.2. Zone footer2
+**********************************************/
+#block-menu-menu-payment-methods {
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -khtml-border-radius: 8px;
+  border-radius: 8px; }
+
+/**************************************************
+* --
+* 5. Commerce specific
+* --
+**************************************************/
+/**********************************************
+* 5.1. Search & Collection page
+**********************************************/
+/**
+* Collection page
+*/
+.view-collection-products .view-header,
+.view-collection-taxonomy-term .view-header {
+  background-size: cover; }
+  .view-collection-products .view-header .taxonomy-title,
+  .view-collection-taxonomy-term .view-header .taxonomy-title {
+    position: relative; }
+  .view-collection-products .view-header .view-collection-products,
+  .view-collection-products .view-header .collection-terms,
+  .view-collection-taxonomy-term .view-header .view-collection-products,
+  .view-collection-taxonomy-term .view-header .collection-terms {
+    float: right;
+    margin: 5px;
+    padding-top: 0; }
+
+/**********************************************
+* 5.3. Product page
+**********************************************/
+/**
+* Add to cart popin.
+*/
+.view-confirm-message-product-display {
+  clear: both;
+  float: none;
+  width: auto; }
+
+div.messages.commerce-add-to-cart-confirmation .message-inner .added-product-title {
+  float: left;
+  /* LTR */
+  width: 180px; }
+div.messages.commerce-add-to-cart-confirmation .message-inner .button-wrapper {
+  height: 100%;
+  position: absolute;
+  right: 0;
+  /* LTR */ }
+div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-message-product-display {
+  float: left;
+  /* LTR */
+  padding-bottom: 20px; }
+  div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-message-product-display .view-content .views-field-commerce-product .content .field-name-field-images {
+    position: relative;
+    left: 0; }
+
+/* Product details */
+.node-product-type {
+  /* Cloud zoom */ }
+  .node-product-type .cloud-zoom-container .cloud-zoom-big,
+  .node-product-type .cloud-zoom-container .mousetrap,
+  .node-product-type .cloud-zoom-container .cloud-zoom-lens {
+    display: inherit !important; }
+  .node-product-type .field-name-field-product form.commerce-add-to-cart label {
+    float: none; }
+
+.service-links {
+  width: auto; }
+
+/**********************************************
+* 5.4. Checkout process
+**********************************************/
+/**
+* Checkout page
+* Shipping page
+*/
+.page-checkout #commerce-checkout-form-checkout fieldset label,
+.page-checkout #commerce-checkout-form-review fieldset label {
+  float: left;
+  /* LTR */
+  width: 20%; }
+.page-checkout #commerce-checkout-form-checkout fieldset .commerce-customer-profile-copy label,
+.page-checkout #commerce-checkout-form-review fieldset .commerce-customer-profile-copy label {
+  float: none;
+  width: 100%; }
+
+.page-cart .entity-commerce-product .content .field-name-field-images {
+  display: inline;
+  float: left;
+  margin-right: 8px; }
+
+/**************************************************
+* --
+* 7. Blog
+* --
+**************************************************/
+.page-blog .region-content .view-content .views-row {
+  clear: left;
+  float: left;
+  width: 49%; }
+.page-blog .region-content .view-content .views-row-even {
+  clear: right;
+  float: right; }
+
+/**************************************************
+* --
+* 9. User account
+* --
+**************************************************/
+.page-user,
+.page-checkout {
+  /* Registration form */
+  /* Login form, create an account block */
+  /* User home */ }
+  .page-user #user_register_form,
+  .page-user #user_login_form,
+  .page-user .create-account,
+  .page-user #user_pass_form,
+  .page-checkout #user_register_form,
+  .page-checkout #user_login_form,
+  .page-checkout .create-account,
+  .page-checkout #user_pass_form {
+    clear: none;
+    float: left;
+    width: 45%; }
+  .page-user form#user-register-form .form-item-pass,
+  .page-user form#user-profile-form .form-item-pass,
+  .page-checkout form#user-register-form .form-item-pass,
+  .page-checkout form#user-profile-form .form-item-pass {
+    margin-bottom: auto; }
+    .page-user form#user-register-form .form-item-pass .password-parent,
+    .page-user form#user-profile-form .form-item-pass .password-parent,
+    .page-checkout form#user-register-form .form-item-pass .password-parent,
+    .page-checkout form#user-profile-form .form-item-pass .password-parent {
+      position: relative;
+      width: 36.3em; }
+      .page-user form#user-register-form .form-item-pass .password-parent .password-strength,
+      .page-user form#user-profile-form .form-item-pass .password-parent .password-strength,
+      .page-checkout form#user-register-form .form-item-pass .password-parent .password-strength,
+      .page-checkout form#user-profile-form .form-item-pass .password-parent .password-strength {
+        position: absolute;
+        right: 15px;
+        bottom: -12px;
+        width: 17em; }
+    .page-user form#user-register-form .form-item-pass .confirm-parent,
+    .page-user form#user-profile-form .form-item-pass .confirm-parent,
+    .page-checkout form#user-register-form .form-item-pass .confirm-parent,
+    .page-checkout form#user-profile-form .form-item-pass .confirm-parent {
+      position: relative;
+      width: 36.3em; }
+      .page-user form#user-register-form .form-item-pass .confirm-parent div.password-confirm,
+      .page-user form#user-profile-form .form-item-pass .confirm-parent div.password-confirm,
+      .page-checkout form#user-register-form .form-item-pass .confirm-parent div.password-confirm,
+      .page-checkout form#user-profile-form .form-item-pass .confirm-parent div.password-confirm {
+        right: 15px;
+        bottom: 8px;
+        width: 17em; }
+    .page-user form#user-register-form .form-item-pass .password-suggestions,
+    .page-user form#user-profile-form .form-item-pass .password-suggestions,
+    .page-checkout form#user-register-form .form-item-pass .password-suggestions,
+    .page-checkout form#user-profile-form .form-item-pass .password-suggestions {
+      width: 38.5em; }
+  .page-user form#user-register-form .form-actions,
+  .page-user form#user-profile-form .form-actions,
+  .page-checkout form#user-register-form .form-actions,
+  .page-checkout form#user-profile-form .form-actions {
+    clear: both;
+    margin-top: 0;
+    margin-bottom: 100px;
+    width: 70%; }
+  .page-user #user_pass_form,
+  .page-checkout #user_pass_form {
+    width: auto; }
+  .page-user form#user-login #user_login_form,
+  .page-checkout form#user-login #user_login_form {
+    border: 0;
+    border-right: 1px solid #444444;
+    padding-right: 20px;
+    padding-bottom: 0; }
+  .page-user form#user-login .create-account,
+  .page-checkout form#user-login .create-account {
+    margin: 0;
+    padding: 0 20px 20px 20px; }
+  .page-user .profile ul.user-information li,
+  .page-checkout .profile ul.user-information li {
+    border-bottom: 0;
+    width: 33%; }
+
+/* Address book */
+.page-user-addressbook .view-commerce-addressbook td {
+  display: table-cell; }
+
+/************** AJAX *********************************/
+.ajax-progress-throbber .message{
+	display:none;
+}
+.ajax-progress-throbber label{
+	display:none;
+}
+/************** DANTEC Display Suite *********************************/
+
+#ds_leftnav{
+	width:220px;
+	margin-right:20px;
+	float:left;
+}
+#ds_maincontent{
+	width:700px;
+	float:left;
+}
+#ds_maincontent .ds_420_20{
+	float:left;
+	width:420px;
+	margin-right:20px;
+	min-height:10px;
+}
+#ds_maincontent .ds_100_20{
+	float:left;
+	width:20px;
+	margin-right:20px;
+	min-height:10px;
+
+}
+#ds_maincontent .ds_100_20 .field-item{
+	text-align:right;
+}
+
+#ds_maincontent .ds_140{
+	float:left;
+	width:140px;
+	min-height:10px;
+}
+
+
+
+#ds_maincontent .ds_140 div.field-name-field-foto-uso{
+	margin-bottom:15px;
+}
+#ds_maincontent .ds_540_20{
+	float:left;
+	width:540px;
+	margin-right:12px;
+	min-height:10px;
+  overflow: hidden;
+}
+#ds_maincontent .ds_460_20{
+	float:left;
+	width:460px;
+	margin-right:20px;
+	min-height:10px;
+}
+#ds_maincontent .ds_220{
+	float:left;
+	width:220px;
+	min-height:10px;
+}
+#ds_maincontent .ds_140 .field-type-list-boolean{
+	float:left;
+	padding-right:28px;
+	margin-left:-20px;
+}
+#ds_maincontent .ds_140{
+
+}
+div.field-name-field-youtube-link a{
+	display:block;
+	background-color:#999;
+	text-indent:-9999px;
+	width:140px;
+	height:33px;
+	background:url(../images/btn_video.png) no-repeat;
+}
+
+
+
+.ds_700{
+	width:700px;
+	float:left;
+}
+#ds_maincontent .ds_140 .field-name-field-detectable-rayos-x{
+	padding-left:0px;
+}
+#ds_maincontent #wrap{
+	width: 300px;
+  height: 300px;
+  text-align: center;
+  margin-right: 70px;
+  margin-left: 70px;
+}
+/*
+#ds_maincontent .cloud-zoom-container #wrap a,#ds_maincontent .cloud-zoom-container #wrap div,#ds_maincontent .cloud-zoom-container #wrap img{
+	display:block;
+	text-align:center;
+	margin-left: auto;
+    margin-right: auto;
+}*/
+#ds_maincontent .cloud-zoom-big{
+	border:1px solid #666;
+}
+#ds_maincontent .cloud-zoom-gallery-thumbs {
+    clear:none;
+	width:60px;
+	margin-left:20px;
+}
+#ds_maincontent .cloud-zoom-gallery-thumbs a{
+    float:left;
+	width:78px;
+	height:78px;
+	text-align:center;
+	 margin-left:auto;
+	 margin-right:auto;
+	 border:1px solid #9d9d9d;
+	 display: table-cell;
+	 vertical-align:middle;
+	 margin-bottom:15px;
+	 line-height:76px;
+}
+#ds_maincontent .cloud-zoom-gallery-thumbs a img{
+	 vertical-align:middle;
+
+}
+
+#ds_maincontent .commerce-product-sku,#ds_maincontent .field-name-field-clave {
+	color:#ababab;
+	font-size:22px;
+	font-weight:bold;
+	width:auto;
+	float:left;
+	padding-right:20px;
+}
+#ds_maincontent .commerce-product-extra-field-sku{
+	display:none;
+}
+
+#ds_maincontent .commerce-product-sku-label{
+	display:none;
+}
+#ds_maincontent .field-name-title-field{
+		color:#ababab;
+	font-size:22px;
+		width:auto;
+	margin: auto;
+  line-height: 42px;
+}
+.field-name-field-related-product h2.field-name-title-field{
+	min-height:54px;
+	margin-bottom:10px;
+}
+
+#ds_maincontent .field-name-field-tipo-de-cerda-prod{
+	color:#b0aaaa;
+	font-size:22px;
+}
+#ds_maincontent .ds_700{
+	clear:left;
+	width:700px;
+
+}
+#ds_maincontent .prod_color{
+	height:auto;
+}
+#ds_maincontent  .prod_main{
+	clear:both;
+}
+
+#ds_maincontent .attribute-widgets, ,#ds_maincontent .form-radio{
+	width:700px;
+}
+#ds_maincontent div.form-radios .form-item-attributes-field-colorcode{
+	float:left;
+	width:79px;
+	margin:0px;
+	padding:0px;
+	display      : block;
+	height:35px;
+}
+#ds_maincontent .form-item-attributes-field-colorcode input[type=radio]:not(old){
+  width   : 60px;
+  height:35px;
+  padding : 0;
+  opacity : 0;
+  cursor:pointer;
+  margin-top:-20px;
+  position: absolute;
+  margin: auto;
+
+
+}
+#ds_maincontent .form-item-attributes-field-colorcode input[type=radio]:not(old):checked{
+  cursor:default;
+}
+#ds_maincontent .form-item-attributes-field-colorcode input[type=radio]:not(old) + label{
+  display      : inline-block;
+  color:#fff;
+}
+#ds_maincontent .form-item-attributes-field-colorcode input{
+
+}
+#ds_maincontent .form-item-attributes-field-colorcode .form-radios{
+	width:720px;
+	clear:both;
+}
+#ds_maincontent .form-item-attributes-field-colorcode label{
+  padding: 0;
+  vertical-align: top;
+  width: 70px;
+  height: 28px;
+	z-index:-10000;
+
+}
+#ds_maincontent .form-item-attributes-field-colorcode input[value="68"]:not(old) + label{
+  background: url(../../images/btn/Grande_Rosa.png) no-repeat scroll center center;
+  background-size: 70px 28px;
+    cursor:pointer;
+}
+#ds_maincontent .form-item-attributes-field-colorcode input[value="68"]:not(old):checked + label{
+  background: url(../../images/btn/Grande_Rosa.png) no-repeat scroll center center;
+  background-size: 70px 28px;
+    cursor:pointer;
+}
+#ds_maincontent .form-item-attributes-field-colorcode input[value="12"]:not(old) + label{
+  background: url(../../images/btn/Grande_Verde.png) no-repeat scroll center center;
+  background-size: 70px 28px;
+  cursor:pointer;
+}
+#ds_maincontent .form-item-attributes-field-colorcode input[value="12"]:not(old):checked + label{
+  background: url(../../images/btn/Grande_Verde.png) no-repeat scroll center center;
+  background-size: 70px 28px;
+    cursor:pointer;
+}
+#ds_maincontent .form-item-attributes-field-colorcode input[value="13"]:not(old) + label{
+  background: url(../../images/btn/Grande_Azul.png) no-repeat scroll center center;
+  background-size: 70px 28px;
+    cursor:pointer;
+}
+#ds_maincontent .form-item-attributes-field-colorcode input[value="13"]:not(old):checked + label{
+  background: url(../../images/btn/Grande_Azul.png) no-repeat scroll center center;
+  background-size: 70px 28px;
+    cursor:pointer;
+}
+#ds_maincontent .form-item-attributes-field-colorcode input[value="14"]:not(old) + label{
+  background: url(../../images/btn/Grande_Rojo.png) no-repeat scroll center center;
+  background-size: 70px 28px;
+    cursor:pointer;
+}
+#ds_maincontent .form-item-attributes-field-colorcode input[value="14"]:not(old):checked + label{
+  background: url(../../images/btn/Grande_Rojo.png) no-repeat scroll center center;
+  background-size: 70px 28px;
+    cursor:pointer;
+}
+#ds_maincontent .form-item-attributes-field-colorcode input[value="15"]:not(old) + label{
+  background: url(../../images/btn/Grande_Blanco.png) no-repeat scroll center center;
+  background-size: 70px 28px;
+    cursor:pointer;
+}
+#ds_maincontent .form-item-attributes-field-colorcode input[value="15"]:not(old):checked + label{
+  background: url(../../images/btn/Grande_Blanco.png) no-repeat scroll center center;
+  background-size: 70px 28px;
+    cursor:pointer;
+}
+#ds_maincontent .form-item-attributes-field-colorcode input[value="16"]:not(old) + label{
+  background: url(../../images/btn/Grande_Amarillo.png) no-repeat scroll center center;
+  background-size: 70px 28px;
+    cursor:pointer;
+}
+#ds_maincontent .form-item-attributes-field-colorcode input[value="16"]:not(old):checked + label{
+  background: url(../../images/btn/Grande_Amarillo.png) no-repeat scroll center center;
+  background-size: 70px 28px;
+    cursor:pointer;
+}
+#ds_maincontent .form-item-attributes-field-colorcode input[value="17"]:not(old) + label{
+  background: url(../../images/btn/Grande_Naranja.png) no-repeat scroll center center;
+  background-size: 70px 28px;
+    cursor:pointer;
+}
+#ds_maincontent .form-item-attributes-field-colorcode input[value="17"]:not(old):checked + label{
+  background: url(../../images/btn/Grande_Naranja.png) no-repeat scroll center center;
+  background-size: 70px 28px;
+    cursor:pointer;
+}
+#ds_maincontent .form-item-attributes-field-colorcode input[value="18"]:not(old) + label{
+  background: url(../../images/btn/Grande_Morado.png) no-repeat scroll center center;
+  background-size: 70px 28px;
+    cursor:pointer;
+}
+#ds_maincontent .form-item-attributes-field-colorcode input[value="18"]:not(old):checked + label{
+  background: url(../../images/btn/Grande_Morado.png) no-repeat scroll center center;
+  background-size: 70px 28px;
+    cursor:pointer;
+}
+#ds_maincontent .form-item-attributes-field-colorcode input[value="19"]:not(old) + label{
+  background: url(../../images/btn/Grande_Negro.png) no-repeat scroll center center;
+  background-size: 70px 28px;
+    cursor:pointer;
+}
+#ds_maincontent .form-item-attributes-field-colorcode input[value="19"]:not(old):checked + label{
+  background: url(../../images/btn/Grande_Negro.png) no-repeat scroll center center;
+  background-size: 70px 28px;
+    cursor:pointer;
+}
+
+#ds_maincontent .form-item-attributes-field-colorcode label{
+text-indent:-9999px;
+}
+
+#ds_maincontent  .form-item{
+	margin:0px;
+}
+
+#ds_maincontent .form-wrapper{
+	background-color:#F00;
+}
+
+#ds_maincontent  .form-item-quantity{
+	/*width:340px;*/
+	clear:left;
+	height:67px;
+	background: #f0f0f0 url(../img/bg_basket.png) repeat-x;
+	padding-top:0px;
+	padding-left:360px;
+}
+#ds_maincontent  .commerce-product-field-field-colorcode{
+	position:relative;
+	top:-100px;
+	left:460px;
+	height:50px;
+}
+#ds_maincontent  .commerce-fancy-attributes-color{
+	width:30px;
+	height:20px;
+	margin-top:4px;
+}
+#ds_maincontent  .field-name-field-color,#ds_maincontent .commerce-product-field-field-colorcode{
+	width:100px;
+}
+#ds_maincontent input.form-submit{
+	clear:left;
+}
+#ds_maincontent input[value="Agregar a la cesta"], #ds_maincontent input[value="Add to cart"]{
+	position:absolute;
+	bottom: 10px;
+	right: 0;
+	display: inline-block;
+	background: url(../img/btn_cotizar.png) no-repeat left top;
+	width: 140px;
+	height: 33px;
+	text-indent: -9999px;
+	border: hidden;
+	border-radius:0;
+	padding:0px;
+}
+#ds_maincontent input.form-submit:focus, #ds_maincontent input.form-submit:active{
+	box-shadow:none;
+}
+#ds_maincontent .prod_print{
+	clear:left;
+	position:relative;
+	top:-52px;
+	margin-left:20px;
+	width:200px;
+}
+#ds_maincontent .prod_desc{
+	clear:left;
+}
+#ds_maincontent .field-name-field-related-product .field-item{
+	float:left;
+	width:140px;
+	margin-right:30px;
+
+}
+#ds_maincontent .field-name-field-related-product #ds_related_content{
+	min-height:174px;
+}
+#ds_maincontent #ds_related{
+	/*border:1px solid #EFEFEF;*/
+	margin-top:25px;
+}
+#ds_maincontent .field-name-field-related-product a{
+	font-size:16px;
+	line-height:18px;
+	color:0099cc;
+	font-weight:bold;
+	display:block;
+}
+#ds_maincontent .field-name-field-related-product h2 a{
+	font-weight:normal;
+	color:#9d9d9d;
+}
+#ds_maincontent .field-name-field-related-product .field-field-images{
+	width:140px;
+	height:100px;
+	text-align:center;
+	vertical-align:baseline;
+	position:relative;
+	margin: 0 auto;
+}
+#ds_maincontent .field-name-field-related-product .field-field-images img{
+
+}
+
+#ds_maincontent .field-name-field-related-product .field-field-images figure{
+	padding-bottom:3px;
+	width:140px;
+	height:100px;
+	display:table-cell;
+	vertical-align:middle;
+
+}
+#ds_maincontent .field-name-field-related-product{
+	background:url(../img/bg_dotted.png) repeat-x;
+	padding-top:10px;
+	margin-top:20px;
+}
+#ds_maincontent .caracteristicas{
+	margin-bottom:20px;
+}
+
+
+#ds_maincontent .prod_desc .field-label{
+	float:left;
+	width:140px;
+	clear:left;
+}
+#ds_maincontent .prod_desc .field-items{
+	float:left;
+	width:400px;
+}
+/***************************************************************
+* Product list views
+* .view-dantec-grupo-tax = taxonomy , .view-display-products = search
+***************************************************************/
+.view-dantec-grupo-tax .view-header p{
+	color: rgb(171, 171, 171);
+	font-size: 34px;
+	margin:0px;
+}
+.view-dantec-grupo-tax .views-exposed-form{
+	padding:5px 10px 5px 20px;
+	background:#e0e0e0;
+}
+.view-dantec-grupo-tax .views-exposed-form .chzn-search{
+	display:none;
+}
+.view-dantec-grupo-tax .views-exposed-form .edit_sort_order_chzn{
+	width:60px;
+}
+.view-dantec-grupo-tax .views-exposed-form .form-item-sort-order label{
+	text-indent: -9999px;
+}
+.view-dantec-grupo-tax .field-field-images,
+.view-display-products .field-field-images{
+	text-align:center;
+}
+
+.view-dantec-grupo-tax .node-product-type header,
+.view-display-products .node-product-type header{
+	min-height:40px;
+}
+
+
+.view-dantec-grupo-tax .views-widget-sort-by{
+	padding-left:20px;
+}
+
+.view-dantec-grupo-tax .field-name-field-clave,
+.view-display-products .field-name-field-clave,
+.view-dantec-grupo-tax .commerce-product-sku,
+.view-display-products .commerce-product-sku{
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: bold;
+	color: rgb(38, 152, 242);
+	margin-top:5px;
+}
+.view-dantec-grupo-tax .commerce-product-sku,
+.view-display-products .commerce-product-sku{
+	display:none;
+}
+
+.view-dantec-grupo-tax .commerce-product-sku-label,
+.view-display-products .commerce-product-sku-label{
+	display:none;
+}
+.view-dantec-grupo-tax h2 a,
+.view-display-products h2 a{
+	font-size: 17px;
+	line-height: 17px;
+	color: #666;
+}
+.view-dantec-grupo-tax h2 a:after
+ {
+ content:url('../img/link_arrrow_blue.png');
+ }
+.view-dantec-grupo-tax h2 a:hover:after
+ {
+ content:url('../img/link_arrrow_black.png');
+ }
+
+.view-dantec-grupo-tax h2 a:hover,
+.view-display-products h2 a:hover{
+	color:#000;
+}
+.view-dantec-grupo-tax h2,
+.view-display-products h2{
+	line-height:50%;
+	margin-bottom:5px;
+}
+
+.view-dantec-grupo-tax  .attribute-widgets, .view-dantec-grupo-tax  .form-radio,
+.view-dantec-grupo-products  .attribute-widgets, .view-dantec-grupo-products  .form-radio{
+	width:190px;
+}
+
+.view-dantec-grupo-tax div.form-radios .form-item-attributes-field-colorcode,
+.view-display-products div.form-radios .form-item-attributes-field-colorcode{
+	float:left;
+	margin:0px;
+	padding:0 0 4px 0;
+	display      : block;
+	height:23px;
+	width:23px;
+}
+.view-dantec-grupo-tax .form-item-attributes-field-colorcode input[type=radio]:not(old),
+.view-display-products .form-item-attributes-field-colorcode input[type=radio]:not(old){
+  width   : 20px;
+  height:18px;
+  margin  : 0;
+  padding : 0;
+  opacity : 0;
+  cursor:pointer;cursor:hand;
+}
+.view-dantec-grupo-tax .form-item-attributes-field-colorcode input[type=radio]:not(old):checked,
+.view-display-products .form-item-attributes-field-colorcode input[type=radio]:not(old):checked{
+  cursor:default;
+}
+.view-dantec-grupo-tax .form-item-attributes-field-colorcode input[type=radio]:not(old) + label,
+.view-display-products .form-item-attributes-field-colorcode input[type=radio]:not(old) + label{
+  display      : inline-block;
+  margin-left  : -18px;
+  padding-left : 18px;
+  margin-right:3px;
+  text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+	cursor:pointer;cursor:hand;
+margin-top:-21px;
+}
+.view-dantec-grupo-tax .form-item-attributes-field-colorcode .form-radios,
+.view-display-products .form-item-attributes-field-colorcode .form-radios{
+	width:220px;
+	clear:both;
+}
+.view-dantec-grupo-tax .form-item-attributes-field-colorcode label,
+.view-display-products .form-item-attributes-field-colorcode label{
+	z-index:10000;
+
+}
+
+div[title="Indefinido"]{
+	display:none;
+}
+
+.view-dantec-grupo-tax .form-item-attributes-field-colorcode input[value="12"]:not(old) + label,
+.view-display-products .form-item-attributes-field-colorcode input[value="12"]:not(old) + label{
+  background:url(../img/color_2_small.png) no-repeat ;
+
+}
+.view-dantec-grupo-tax .form-item-attributes-field-colorcode input[value="68"]:not(old) + label,
+.view-display-products .form-item-attributes-field-colorcode input[value="68"]:not(old) + label{
+  background:url(../img/color_1_small.png) no-repeat ;
+
+}
+.view-dantec-grupo-tax .form-item-attributes-field-colorcode input[value="13"]:not(old) + label,
+.view-display-products .form-item-attributes-field-colorcode input[value="13"]:not(old) + label{
+  background:url(../img/color_3_small.png) no-repeat;
+}
+.view-dantec-grupo-tax .form-item-attributes-field-colorcode input[value="14"]:not(old) + label,
+.view-display-products .form-item-attributes-field-colorcode input[value="14"]:not(old) + label{
+  background:url(../img/color_4_small.png) no-repeat;
+}
+.view-dantec-grupo-tax .form-item-attributes-field-colorcode input[value="15"]:not(old) + label,
+.view-display-products .form-item-attributes-field-colorcode input[value="15"]:not(old) + label{
+  background:url(../img/icons/color_5_small.png) no-repeat;
+}
+.view-dantec-grupo-tax .form-item-attributes-field-colorcode input[value="16"]:not(old) + label,
+.view-display-products .form-item-attributes-field-colorcode input[value="16"]:not(old) + label{
+  background:url(../img/color_6_small.png) no-repeat;
+}
+.view-dantec-grupo-tax .form-item-attributes-field-colorcode input[value="17"]:not(old) + label,
+.view-display-products .form-item-attributes-field-colorcode input[value="17"]:not(old) + label{
+  background:url(../img/color_7_small.png) no-repeat;
+}
+.view-dantec-grupo-tax .form-item-attributes-field-colorcode input[value="18"]:not(old) + label,
+.view-display-products .form-item-attributes-field-colorcode input[value="18"]:not(old) + label{
+  background:url(../img/icons/color_8_small.png) no-repeat;
+}
+.view-dantec-grupo-tax .form-item-attributes-field-colorcode input[value="19"]:not(old) + label,
+.view-display-products .form-item-attributes-field-colorcode input[value="19"]:not(old) + label{
+  background:url(../img/icons/color_9_small.png) no-repeat;
+}
+.view-dantec-grupo-tax .attribute-widgets,
+.view-display-products .attribute-widgets{
+	margin-left:20px;
+}
+.view-dantec-grupo-tax .field-type-commerce-product-reference,
+.view-display-products .field-type-commerce-product-reference{
+	background: url(../img/bg_dotted_list.png) bottom repeat-x #e1e1e1;
+	padding:5px 5px;
+	margin:0px;
+	width:210px;
+
+
+}
+.view-dantec-grupo-tax label[for|="edit-attributes-field-colorcode"],.view-display-products label[for|="edit-attributes-field-colorcode"],
+.view-dantec-grupo-tax label[for|="edit-quantity"],.view-display-products label[for|="edit-quantity"]{
+	display:none;
+}
+
+.view-dantec-grupo-tax .commerce-add-to-cart .form-submit,
+.view-display-products .commerce-add-to-cart .form-submit{
+	float:right;
+	display: block;
+	background: url(../img/btn_cotizar_small.png) no-repeat left top;
+	width: 76px;
+	height: 29px;
+	text-indent: -9999px;
+	border: hidden;
+	border-radius:0;
+	padding:0px;
+	margin-top:-28px;
+}
+.view-dantec-grupo-tax .form-item-quantity,
+.view-display-products .form-item-quantity{
+	width:80px;
+	padding-left:70px;
+	/*float:left;*/
+}
+.view-dantec-grupo-tax .field-field-colorcode,
+.view-display-products .field-field-colorcode{
+		margin-left:56px;
+		margin-top:-26px;
+		width:100px;
+
+}
+.view-dantec-grupo-tax .field-name-field-product-category{
+	display:none;
+}
+div.view-display-products .field-type-taxonomy-term-reference{
+	display:none;
+	margin-left:1px;
+	width:52px;
+	float:right;
+	padding-left:5px;
+	padding-top:5px;
+}
+
+
+.view-id-display_products table.views-view-grid{
+
+}
+
+
+
+.view-dantec-grupo-tax li.pager-item a,
+.view-dantec-grupo-tax li.pager-next a,
+.view-dantec-grupo-tax li.pager-last a,
+.view-dantec-grupo-tax li.pager-current,
+.view-dantec-grupo-tax li.pager-first a,
+.view-dantec-grupo-tax li.pager-previous a,
+
+.view-display-products li.pager-item a,
+.view-display-products li.pager-next a,
+.view-display-products li.pager-last a,
+.view-display-products li.pager-current,
+.view-display-products li.pager-first a,
+.view-display-products li.pager-previous a{
+		font-size:20px;
+}
+.views-view-grid tbody{
+	vertical-align:bottom;
+}
+/***************************************************************
+* Marcas pages
+***************************************************************/
+
+h1#page-title{
+
+	font-weight:400;
+	color: rgb(171, 171, 171);
+	font-size: 34px;
+	padding-top:20px;
+}
+node-type-page h1#page-title{
+
+}
+div.view-header{
+	display:none;
+}
+body.page-marcas-lista h1#page-title{display:block;padding-left:230px}
+
+#ds_marcaslist .ds_240{
+	float:left;
+	width:240px;
+}
+#ds_marcaslist .ds_700_hr{
+	float:left;
+	width:700px;
+	border-bottom:1px solid #9d9d9d;
+	margin-bottom:20px;
+}
+#ds_marcaslist .ds_380_20{
+	float:left;
+	width:380px;
+	margin-right:20px;
+	padding-bottom:14px;
+}
+#ds_marcaslist .ds_300{
+	float:left;
+	width:300px;
+	padding-bottom:14px;
+}
+#ds_marcaslist .ds_380_20 p{
+	margin-bottom:0px;
+}
+#ds_marcaslist .more-link a{font-size:20px;}
+.field-name-field-product-link, .field-name-field-productos-link{
+	float:right;
+}
+.field-name-field-product-link a, .field-name-field-productos-link a{
+	background:url(../img/btn_productos.png) #a8c11c no-repeat;
+	width:140px; height:33px;
+	text-indent:-9999px;
+	display:block;
+}
+
+body.node-type-marca h2{
+	color: rgb(171, 171, 171);
+	font-size: 34px;
+	margin:20px 0 0 0;
+}
+body.node-type-marca .field-name-field-logo-image{
+	margin-top:120px;
+}
+body.node-type-marca .field-name-field-sub-title{
+	font-size:20px;
+	background:url(../img/bg_dotted.png) bottom repeat-x;
+	padding-bottom:5px;
+	margin-bottom:10px;
+}
+/********* SUBMARCA ************/
+.view-dantec-submarca td{
+	width:240px;
+	padding-right:20px;
+}
+.view-dantec-submarca td.col-last{
+	width:220px;
+	padding-right:0px;
+}
+.view-dantec-submarca td header h2{
+	font-size:22px;
+	margin:0px;
+}
+
+
+.field-name-field-productos-link{
+	margin-top:20px;
+}
+.view-dantec-submarca .block-title{
+	font-size:24px;
+}
+section.block-views-dantec-submarca-block  h2{
+	font-size: 24px;
+	margin:10px 0 10px; 0;
+	padding:10px 0 0 0;
+	border-top: 1px solid #9d9d9d;
+}
+
+.view-dantec-grupo-tax .view-filters{
+	visibility:hidden;
+}
